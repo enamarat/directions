@@ -1,0 +1,103 @@
+* {
+  font-family: monospace, sans-serif;
+}
+
+body {
+  cursor: url("../cur.png"), auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+#left {
+  position: absolute;
+  width: 50px;
+  height: 90%;
+  top: calc(50vh - 45%);
+  left: 0%;
+}
+
+#right {
+  position: absolute;
+  width: 50px;
+  height: 90%;
+  top: calc(50vh - 45%);
+  right: 0%;
+}
+
+#top {
+  position: absolute;
+  width: 80%;
+  height: 50px;
+  top: 0%;
+  left: calc(50vw - 40%);
+}
+
+#bottom {
+  position: absolute;
+  width: 80%;
+  height: 50px;
+  bottom: 0%;
+  left: calc(50vw - 40%);
+}
+
+.panel {
+  background-color: aquamarine;
+}
+
+.panel:hover {
+  background-color: orangered;
+}
+
+.panel_correct {
+  background-color: aquamarine;
+}
+
+.panel_correct:hover {
+  background-color: lime;
+}
+
+#score {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}
+
+#language {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  padding: 5px;
+  background-color: yellow;
+}
+
+#language:hover {
+  background-color: yellowgreen;
+}
+
+#start_button {
+  background-color: burlywood;
+  color: white;
+  border-radius: 10% 10%;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 2em;
+}
+
+#start_button:hover {
+  background-color: brown;
+}
