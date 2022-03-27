@@ -101,3 +101,10 @@ h3 {
 #start_button:hover {
   background-color: brown;
 }
+
+/*** queries **/
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 3em;
+  }
+}
