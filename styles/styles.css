@@ -26,33 +26,33 @@ h3 {
 #left {
   position: absolute;
   width: 50px;
-  height: 90%;
-  top: calc(50vh - 45%);
+  height: calc(100% - 100px);
+  top: 50px;
   left: 0%;
 }
 
 #right {
   position: absolute;
   width: 50px;
-  height: 90%;
-  top: calc(50vh - 45%);
+  height: calc(100% - 100px);
+  top: 50px;
   right: 0%;
 }
 
 #top {
   position: absolute;
-  width: 80%;
+  width: calc(100% - 100px);
   height: 50px;
   top: 0%;
-  left: calc(50vw - 40%);
+  left: 50px;
 }
 
 #bottom {
   position: absolute;
-  width: 80%;
+  width: calc(100% - 100px);
   height: 50px;
   bottom: 0%;
-  left: calc(50vw - 40%);
+  left: 50px;
 }
 
 .panel {
